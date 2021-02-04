@@ -1,6 +1,6 @@
-# Stratforge React Coding Challenge
+# Stratforge React Code Challenge
 
->Time Required: 8-10 hours
+>Time Required: 16-24 hours
 
 ## Introduction
 
@@ -16,7 +16,6 @@ We will assess the following
 4. Effective use of data structures
 5. Re-useability of code
 6. Innovation
-
 ## Challenge 
 
 ![Important!](https://img.shields.io/badge/Important-Read%20the%20challenge%20thoroughly%20before%20proceeding-red?style=for-the-badge&logo=react&link=# "Important")
