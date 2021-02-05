@@ -2,11 +2,11 @@
 
 >Time Required: 16-24 hours
 
-## Introduction
+## 👋 Introduction 
 
 Welcome coders 👩‍💻👨‍💻
 
-For this challenge, you need to develop a application in React and host it on GitHub and share the link of the repository and the GitHub Pages link (if hosted)
+For this challenge, you need to develop a application in React and commit the code to a public GitHub repo and share its link for review.
 
 We will assess the following
 1. Coding standards
@@ -16,7 +16,7 @@ We will assess the following
 4. Effective use of data structures
 5. Re-useability of code
 6. Innovation
-## Challenge 
+## ⚔️ Challenge 
 
 ![Important!](https://img.shields.io/badge/Important-Read%20the%20challenge%20thoroughly%20before%20proceeding-red?style=for-the-badge&logo=react&link=# "Important")
 
@@ -52,23 +52,23 @@ When the user click on one of the items in the page above, a screen with all the
 - Be creative of how different pieces of information can be shown in the right way
 > We are looking to understand how you can present large and complex data in a simple way 
 
-## Tools 🧰
+## 🧰 Tools 
 
 ### API
 All information on SpaceX is available as an Open API and you can find the documentation here [https://docs.spacexdata.com/](https://docs.spacexdata.com/)
 
-## Guidelines
+## 📜 Guidelines 
 
 - Make sure your code is clean
-- Commit your code to your GitHub profile
-- Hosting your project on GitHub Pages is optional
+- Commit your code as a public repository on GitHub and share the link with us
 - Make sure the UI looks good - with respect to color theming, fonts, sizing and responsiveness
 - Keep use of other libraries to a minimum (only essentials). We prefer that you don't use any 3rd party css/component libraries
 - Keep your README.md detailed and explain on 
     - Your choice of frameworks
     - Architecture
     - If short on time, you can explain how you can improve on the application
-    - Show-off your skills! 🔥
 
+
+Show-off your skills! 🔥
 
     
