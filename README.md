@@ -1,4 +1,4 @@
-# Stratforge React Code Challenge 2021
+# Stratforge React Code Challenge
 
 >Time Required: 16-24 hours
 
