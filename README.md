@@ -1,4 +1,4 @@
-# Stratforge React Code Challenge
+# Stratforge React Code Challenge 2021
 
 >Time Required: 16-24 hours
 
@@ -6,7 +6,7 @@
 
 Welcome coder 👩‍💻👨‍💻
 
-For this challenge, you need to develop a application in React and commit the code to a public GitHub repo and share its link for review.
+For this challenge, you need to develop a application in React and commit the code to a public GitHub repo and share its link for review. 
 
 We will assess the following
 1. Coding standards
