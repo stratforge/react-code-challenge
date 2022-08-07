@@ -1,0 +1,25 @@
+.headerComponent {
+    display: inline-flex;
+     width: 100%;
+     justify-content: space-between;
+}
+
+.heading {
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 900;
+
+}
+
+.links {
+    margin: 20px;
+    font-size: 15px; 
+    justify-content: space-between;
+    width: 20%;   
+}
+
+.title {
+    width: 10%;
+    padding: 0px 10px;
+    text-decoration: underline;
+}
