@@ -1,74 +1,71 @@
-# Stratforge React Code Challenge 2022
 
->Time Required: 16-24 hours
+# Getting Started with Create React App
 
-## 👋 Introduction 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Welcome coder 👩‍💻👨‍💻
+## Available Scripts
 
-For this challenge, you need to develop a application in React and commit the code to a public GitHub repo and share its link for review. 
+In the project directory, you can run:
 
-We will assess the following
-1. Coding standards
-2. Best practices
-3. Authenticity
-4. Complexity (optimal code)
-4. Effective use of data structures
-5. Re-useability of code
-6. Innovation
-## ⚔️ Challenge 
+### `npm start`
 
-![Important!](https://img.shields.io/badge/Important-Read%20the%20challenge%20thoroughly%20before%20proceeding-red?style=for-the-badge&logo=react&link=# "Important")
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You are tasked to develop a info webapp for SpaceX that contains the following structure
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Home Page
-- This will be the landing page of the site that you can be creative about and should have some relative information on the news, upcoming launches etc
-- The page will have the following menu items
-    - History
-    - Launches
-    - Rockets
-- Each item will take the user to another page that will have related information from which users and choose to read
+### `npm test`
 
-    > For example, the Rockets can have a list or list of cards with the name, image of the rocket which the user can click to know more
-    - Be sure to make use of React Router
-    > For example, 
-    >Landing page can be `localhost/rockets`
-    >and the selected rocket information can be under `localhost/rockets/falcon-9`
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Sub-pages
+### `npm run build`
 
-Design intermediate pages for each menu item (specified on top). This page should contain the items it describes
->For example, page for "Rockets" should have all the rockets launched by SpaceX 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Each item on the page should have its picture with some basic info like the name and short description
-- Make sure the page is responsive and the items are automatically arranged upon screen resize
-- An option to filter the items by name should be provided
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Detail page
-When the user click on one of the items in the page above, a screen with all the details of that item should be presented.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- This page should be designed to contain the information with respective to its type or topic 
-- Be creative of how different pieces of information can be shown in the right way
-> We are looking to understand how you can present large and complex data in a simple way 
+### `npm run eject`
 
-## 🧰 Tools 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### API
-All information on SpaceX is available as an Open API and you can find the documentation here [https://docs.spacexdata.com/](https://docs.spacexdata.com/)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 📜 Guidelines 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- Make sure your code is clean
-- Commit your code as a public repository on GitHub and share the link with us
-- Make sure the UI looks good - with respect to color theming, fonts, sizing and responsiveness
-- Keep use of other libraries to a minimum (only essentials). We prefer that you don't use any 3rd party css/component libraries
-- Keep your README.md detailed and explain on 
-    - Your choice of frameworks
-    - Architecture
-    - If short on time, you can explain how you can improve on the application
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-Show-off your skills! 🔥
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-    
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
