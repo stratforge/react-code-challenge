@@ -6,7 +6,7 @@
 
 Welcome coder 👩‍💻👨‍💻
 
-For this challenge, you need to develop a application in React and commit the code to a public GitHub repo and share its link for review. 
+For this challenge, you need to develop a application in React/React Native and commit the code to a public GitHub repo and share its link for review. 
 
 We will assess the following
 1. Coding standards
@@ -20,7 +20,7 @@ We will assess the following
 
 ![Important!](https://img.shields.io/badge/Important-Read%20the%20challenge%20thoroughly%20before%20proceeding-red?style=for-the-badge&logo=react&link=# "Important")
 
-You are tasked to develop a info webapp for SpaceX that contains the following structure
+You are tasked to develop a info webapp [or] mobile app (Android or iOS) for SpaceX that contains the following structure
 
 ### Home Page
 - This will be the landing page of the site that you can be creative about and should have some relative information on the news, upcoming launches etc
@@ -36,7 +36,7 @@ You are tasked to develop a info webapp for SpaceX that contains the following s
     >Landing page can be `localhost/rockets`
     >and the selected rocket information can be under `localhost/rockets/falcon-9`
 
-### Sub-pages
+### Sub-pages or Screens
 
 Design intermediate pages for each menu item (specified on top). This page should contain the items it describes
 >For example, page for "Rockets" should have all the rockets launched by SpaceX 
@@ -55,7 +55,7 @@ When the user click on one of the items in the page above, a screen with all the
 ## 🧰 Tools 
 
 ### API
-All information on SpaceX is available as an Open API and you can find the documentation here [https://docs.spacexdata.com/](https://docs.spacexdata.com/)
+All information on SpaceX is available as an Open API and you can find the documentation here [https://github.com/r-spacex/SpaceX-API/tree/master/docs](https://github.com/r-spacex/SpaceX-API/tree/master/docs)
 
 ## 📜 Guidelines 
 
