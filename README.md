@@ -1,6 +1,6 @@
 # Stratforge Code Challenge
 
->Time Required: 16-24 hours
+>Time Required: 40 - 60 hours
 
 ## 👋 Introduction 
 
