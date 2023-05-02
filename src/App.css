@@ -1,0 +1,309 @@
+.flex {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.col {
+  display: inline-flex;
+  padding: 0px 12px 0px 12px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.inherit-size {
+  height: 100%;
+  width: 100%;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.App {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.section {
+  height: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.card {
+  height: auto;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 60%;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.pos-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.filters {
+  width: 100%;
+  text-align: center;
+}
+
+.input-field {
+  height: 35px;
+}
+
+.tile {
+  margin: 10px; 
+  width: 70%;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+}
+
+.tile-content {
+  padding: 10px;
+  width: 100%;
+  background-color: #141414;
+}
+
+.tile-footer {
+  border-top: 1px solid grey;
+  height: 100px;
+}
+
+.title {
+  font-size: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.footer {
+  height: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.icon-image {
+  height: 23px;
+  width: 23px;
+  cursor: pointer;
+}
+
+.button {
+  height: 40px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ff7272;
+}
+
+.app-header {
+  height: 75px;
+}
+
+.menu-bar {
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+.router-view {
+  height: calc(100% - 75px);
+}
+
+.font-large {
+  font-size: 50px;
+}
+
+.font-small {
+  font-size: 20px;
+}
+
+.margin-x {
+  margin: 0px 8px 0px 8px;
+}
+
+.white {
+  background-color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.launch {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.launch-header {
+  height: 200px;
+  border-bottom: 1px solid;
+}
+
+.launch-stats {
+  height: 150px;
+  position: absolute;
+  border: 1px solid grey;
+  width: 70%;
+  top: 125px;
+  right: 15%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.launches {
+  position: absolute;
+  top: 350px;
+}
+
+.rocket {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border: 1px solid grey;
+}
+
+.rocket:hover {
+  background-color: #2b2b2b;
+  color: #ff7272;
+}
+
+.rocket-info {
+  width: 80%;
+  padding: 10px;
+}
+
+.rocket-stats {
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  width: 80%;
+  height: 150px;
+  margin-top: 50px;
+}
+
+.overview-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+  padding: 7px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.widget {
+  width: 45%;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.center-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.engine-details {
+  margin-top: 50px;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.upcoming-launches {
+  width: 100%;
+  border: 1px solid white;
+  background-color: #1d1d1d;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid white;
+}
+
+.hide {
+  display: block;
+}
+
+.bg-position {
+  background-position: right;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/** Media queries for responsive design **/
+@media only screen and (max-width: 1200px) {
+  .widget {
+    width: 100%;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .bg-position {
+    background-position: left;
+  }
+}
+
+@media only screen and (max-width: 800px) { 
+  .card {
+    width: 95%;
+  }
+}
