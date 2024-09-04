@@ -63,6 +63,7 @@ All information on SpaceX is available as an Open API and you can find the docum
 - Commit your code as a public repository on GitHub and share the link with us
 - Make sure the UI looks good - with respect to color theming, fonts, sizing and responsiveness
 - Keep use of other libraries to a minimum (only essentials). We prefer that you don't use any 3rd party css/component libraries
+- We recommend the use of Tailwind CSS and TypeScript(strictly).
 - Keep your README.md detailed and explain on 
     - Your choice of frameworks
     - Architecture
